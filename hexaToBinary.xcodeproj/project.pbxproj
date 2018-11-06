@@ -14,6 +14,7 @@
 		2CFAF10C21918B0900E7BCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAF10A21918B0900E7BCEC /* LaunchScreen.storyboard */; };
 		2CFAF11721918B0900E7BCEC /* hexaToBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAF11621918B0900E7BCEC /* hexaToBinaryTests.swift */; };
 		2CFAF12221918B0900E7BCEC /* hexaToBinaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAF12121918B0900E7BCEC /* hexaToBinaryUITests.swift */; };
+		2CFAF1322191AD8F00E7BCEC /* motti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAF1312191AD8F00E7BCEC /* motti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2CFAF11D21918B0900E7BCEC /* hexaToBinaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hexaToBinaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFAF12121918B0900E7BCEC /* hexaToBinaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexaToBinaryUITests.swift; sourceTree = "<group>"; };
 		2CFAF12321918B0900E7BCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CFAF1312191AD8F00E7BCEC /* motti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motti.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2CFAF10121918B0700E7BCEC /* AppDelegate.swift */,
 				2CFAF10321918B0700E7BCEC /* ViewController.swift */,
+				2CFAF1312191AD8F00E7BCEC /* motti.swift */,
 				2CFAF10521918B0700E7BCEC /* Main.storyboard */,
 				2CFAF10821918B0900E7BCEC /* Assets.xcassets */,
 				2CFAF10A21918B0900E7BCEC /* LaunchScreen.storyboard */,
@@ -187,6 +190,9 @@
 		2CFAF0F621918B0600E7BCEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Button,
+				);
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = ryoma;
@@ -257,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFAF10421918B0700E7BCEC /* ViewController.swift in Sources */,
+				2CFAF1322191AD8F00E7BCEC /* motti.swift in Sources */,
 				2CFAF10221918B0700E7BCEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
