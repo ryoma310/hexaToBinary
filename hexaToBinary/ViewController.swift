@@ -49,6 +49,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func answerToProblem(_ sender: Any) {
+        if anwerText.text == ""{
+            return
+        }
         let conf = motti.checkAns(Pro: problemText.text!, Ans: anwerText.text!)
         judge.text = conf.0
         status.text = conf.1
